@@ -1,0 +1,10 @@
+# 26. Find the first digit of a number.
+n=int(input("enter a number: "))
+
+while n>10:
+    n=n//10
+print(n)    
+
+
+
+
