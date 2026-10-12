@@ -1,0 +1,6 @@
+# 8. Print a growing right triangle of stars.
+
+N=int(input("enter N: "))
+
+for i in range(1,N+1):
+    print("*" *i )
